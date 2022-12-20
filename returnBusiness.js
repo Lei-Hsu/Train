@@ -40,7 +40,7 @@ const action = () => {
   third.value = info.third
 
   // 設定票數
-  const tickNum = document.querySelector('[name="ticketOrderParamList[0].normalQty"]');
+  const tickNum = document.querySelector('[name="ticketOrderParamList[0].businessQty"]');
   tickNum.value = info.tickNum
 
   // 回程
@@ -63,7 +63,7 @@ const action = () => {
   third2.value = info.returnThird
 
   // 設定票數
-  const tickNum2 = document.querySelector('[name="ticketOrderParamList[1].normalQty"]');
+  const tickNum2 = document.querySelector('[name="ticketOrderParamList[1].businessQty"]');
   tickNum2.value = info.returnTickNum
 }
 
